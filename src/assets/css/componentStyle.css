@@ -1,0 +1,4 @@
+.slick-arrow.slick-prev::before,
+.slick-arrow.slick-next::before {
+  color: #333;
+}
