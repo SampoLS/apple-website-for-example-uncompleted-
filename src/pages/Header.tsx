@@ -4,6 +4,7 @@ import { ImAppleinc } from "react-icons/im";
 import { FiSearch, FiShoppingBag } from "react-icons/fi";
 import MainContent from "./MainContent";
 import StorePage from "./storePage/StorePage";
+import LearnMore from "./learnMorePage/LearnMore";
 
 const Navgation = (): JSX.Element => {
   return (
@@ -55,7 +56,9 @@ const Navgation = (): JSX.Element => {
       </Container>
       <Switch>
         <Route path="/" exact component={MainContent}></Route>
-        <Route path="/store" exact component={StorePage}></Route>
+        <Route path="/store" component={StorePage}></Route>
+        <Route path="/iphone-12-pro" component={LearnMore}></Route>
+        <Route path="*" render={()=><div>404</div>}/>
       </Switch>
     </>
   );

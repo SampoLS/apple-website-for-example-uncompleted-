@@ -1,4 +1,5 @@
 import styled, { ThemeProvider } from "styled-components";
+import { Link } from "react-router-dom";
 
 type Params = {
   params: {
@@ -24,7 +25,7 @@ const ModuleInfo = (props: Params): JSX.Element => {
             <p>{priceInfo1}</p>
             <p>{priceInfo2}</p>
             <BuyBox>
-              <a href="/">Learn more </a>
+              <Link to="/iphone-12-pro">Learn more </Link>
               <a href="/">Buy</a>
             </BuyBox>
           </InfoBox>
