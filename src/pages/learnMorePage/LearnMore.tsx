@@ -3,7 +3,8 @@ import styled from "styled-components";
 import Banner from "../../components/Banner";
 
 // this is learn more component
-const LearnMore = ():JSX.Element => {
+const LearnMore = (props: object):JSX.Element => {
+  console.log(props)
   return (
     <>
       <Banner/>

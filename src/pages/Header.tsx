@@ -58,7 +58,7 @@ const Navgation = (): JSX.Element => {
         <Route path="/" exact component={MainContent}></Route>
         <Route path="/store" component={StorePage}></Route>
         <Route path="/iphone-12-pro" component={LearnMore}></Route>
-        <Route path="*" render={()=><div>404</div>}/>
+        <Route path="*" render={() => <div>404</div>} />
       </Switch>
     </>
   );

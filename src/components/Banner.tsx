@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 // this is learn more component
 const Banner = ():JSX.Element => {
-  return (    
+  return (
     <Wrapper>
       <InnerBanner>
         <div>
@@ -22,6 +22,7 @@ export default Banner;
 const Wrapper = styled.section`
   width: 100%;
   height: 52px;
+  background-color: white;
   position: sticky;
   box-shadow: 0 1px 1px #ddd;
   left: 0;
